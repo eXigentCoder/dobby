@@ -1,0 +1,24 @@
+{
+  "name": "@exigentcoder/dobby-example",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "An example library to demonstrate how everything fits together",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node --experimental-modules index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eXigentCoder/dobby.git"
+  },
+  "keywords": [
+    "dobby"
+  ],
+  "author": "Ryan Kotzen <ryan@krimzen.ninja> (http://blog.exigentcoder.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eXigentCoder/dobby/issues"
+  },
+  "homepage": "https://github.com/eXigentCoder/dobby#readme"
+}
