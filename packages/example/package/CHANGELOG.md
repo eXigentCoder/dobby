@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.0.7 (2019-11-03)</small>
+
+* chore: fixing scope again ([d09daef](https://github.com/eXigentCoder/dobby/commit/d09daef))
+* chore: fixing scope in the right place ([ee3f90a](https://github.com/eXigentCoder/dobby/commit/ee3f90a))
+* chore(release): version %v ([14e8632](https://github.com/eXigentCoder/dobby/commit/14e8632))
+
+
+
+
+
 ## <small>0.0.6 (2019-11-03)</small>
 
 * chore: fixing package name ([76527fb](https://github.com/eXigentCoder/dobby/commit/76527fb))
