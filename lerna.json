@@ -3,5 +3,11 @@
     "packages/**"
   ],
   "version": "independent",
-  "npmClient": "npm"
+  "npmClient": "npm",
+  "command": {
+    "version": {
+      "conventionalCommits": true,
+      "changelogPreset": "conventional-changelog-conventionalcommits",
+    }
+  }
 }
