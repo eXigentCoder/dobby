@@ -19,6 +19,7 @@
     "@types/jest": "24.0.21",
     "@typescript-eslint/eslint-plugin": "2.6.0",
     "@typescript-eslint/parser": "2.6.0",
+    "cz-lerna-changelog": "2.0.2",
     "eslint": "6.5.1",
     "eslint-config-prettier": "6.5.0",
     "eslint-plugin-prettier": "3.1.1",
@@ -30,5 +31,10 @@
   },
   "dependencies": {
     "@exigentcoder/dobby-example": "file:packages/example-service/package"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
   }
 }
