@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.0.5 (2019-11-03)</small>
+
+* chore: fixing eslint path ([f15c5e5](https://github.com/eXigentCoder/dobby/commit/f15c5e5))
+* chore: fixing package name ([76527fb](https://github.com/eXigentCoder/dobby/commit/76527fb))
+* chore: moving files, updating path ([cfe94cd](https://github.com/eXigentCoder/dobby/commit/cfe94cd))
+* chore: setting version message ([3313c23](https://github.com/eXigentCoder/dobby/commit/3313c23))
+* chore(release): version %v ([57c7752](https://github.com/eXigentCoder/dobby/commit/57c7752))
+
+
+
+
+
 ## <small>0.0.4 (2019-11-03)</small>
 
 * chore: fixing eslint path ([f15c5e5](https://github.com/eXigentCoder/dobby/commit/f15c5e5))
