@@ -15,7 +15,8 @@
   "scripts": {
     "extract-dev-deps": "lerna link convert",
     "version": "lerna version",
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "publish": "lerna publish from-package"
   },
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
