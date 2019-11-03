@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.0.9 (2019-11-03)</small>
+
+* chore: updating path to main file ([f65be35](https://github.com/eXigentCoder/dobby/commit/f65be35))
+
+
+
+
+
 ## <small>0.0.8 (2019-11-03)</small>
 
 * chore: fixing typescript config ([56790e1](https://github.com/eXigentCoder/dobby/commit/56790e1))
