@@ -13,7 +13,10 @@
   },
   "homepage": "https://github.com/eXigentCoder/dobby#readme",
   "scripts": {
-    "extract-dev-deps": "lerna link convert"
+    "extract-dev-deps": "lerna link convert",
+    "tag": "lerna-semantic-release pre",
+    "publish": "lerna-semantic-release perform",
+    "changelog": "lerna-semantic-release post"
   },
   "devDependencies": {
     "@types/jest": "24.0.21",
