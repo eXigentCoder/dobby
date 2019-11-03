@@ -1,5 +1,5 @@
 {
-  "name": "dobby-example",
+  "name": "@exigentcoder/dobby-example",
   "version": "0.0.5",
   "type": "module",
   "description": "An example library to demonstrate how everything fits together",
