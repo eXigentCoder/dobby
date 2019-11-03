@@ -14,9 +14,7 @@
   "homepage": "https://github.com/eXigentCoder/dobby#readme",
   "scripts": {
     "extract-dev-deps": "lerna link convert",
-    "tag": "lerna-semantic-release pre",
-    "publish": "lerna-semantic-release perform",
-    "changelog": "lerna-semantic-release post"
+    "version": "lerna version"
   },
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
