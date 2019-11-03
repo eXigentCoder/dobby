@@ -1,6 +1,6 @@
 {
   "name": "@exigentcoder/dobby-example",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "description": "An example library to demonstrate how everything fits together",
   "main": "index.js",
