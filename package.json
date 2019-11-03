@@ -12,6 +12,9 @@
     "url": "https://github.com/eXigentCoder/dobby/issues"
   },
   "homepage": "https://github.com/eXigentCoder/dobby#readme",
+  "scripts": {
+    "extract-dev-deps": "lerna link convert"
+  },
   "devDependencies": {
     "@types/jest": "24.0.21",
     "@typescript-eslint/eslint-plugin": "2.6.0",
@@ -24,5 +27,8 @@
     "prettier": "1.18.2",
     "ts-jest": "24.1.0",
     "typescript": "3.6.4"
+  },
+  "dependencies": {
+    "@exigentcoder/dobby-example": "file:packages/example-service/package"
   }
 }
