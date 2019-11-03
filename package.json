@@ -14,7 +14,8 @@
   "homepage": "https://github.com/eXigentCoder/dobby#readme",
   "scripts": {
     "extract-dev-deps": "lerna link convert",
-    "version": "lerna version"
+    "version": "lerna version",
+    "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
