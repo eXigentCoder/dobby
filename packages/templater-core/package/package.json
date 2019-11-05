@@ -1,0 +1,34 @@
+{
+  "name": "dobby-templater-core",
+  "version": "0.0.9",
+  "type": "module",
+  "description": "The core templating package for the templating system",
+  "main": "lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --collect-coverage",
+    "start": "node --experimental-modules index.js",
+    "build": "tsc",
+    "lint": "npm run lint-ci -- --fix",
+    "lint-ci": "eslint \"./src/**/*.ts\"",
+    "format": "prettier --write \"./src/**/*.ts\"",
+    "prepublishOnly": "npm run build",
+    "preversion": "npm run lint && npm run coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eXigentCoder/dobby.git"
+  },
+  "keywords": [
+    "dobby"
+  ],
+  "author": "Matthew van der Velden <matthew.vdvelden@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eXigentCoder/dobby/issues"
+  },
+  "homepage": "https://github.com/eXigentCoder/dobby#readme"
+}
