@@ -4,6 +4,10 @@
 
 A monorepo for a collection of useful services to aid development.
 
+## Packages
+
+- [templater-core](packages/templater-core/package/README.md)
+
 ## Lib folders
 This is the output from TS and won't be checked into the repo.
 
