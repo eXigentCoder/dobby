@@ -30,5 +30,9 @@
   "bugs": {
     "url": "https://github.com/eXigentCoder/dobby/issues"
   },
-  "homepage": "https://github.com/eXigentCoder/dobby#readme"
+  "homepage": "https://github.com/eXigentCoder/dobby#readme",
+  "dependencies": {
+    "ajv": "^6.10.2",
+    "handlebars": "^4.5.1"
+  }
 }

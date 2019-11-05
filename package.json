@@ -40,9 +40,8 @@
     "typescript": "3.6.4"
   },
   "dependencies": {
-    "@exigentcoder/dobby-example": "file:packages/example-service/package",
-    "@exigentcoder/dobby-templater-core": "file:packages/templater-core/package",
-    "handlebars": "4.5.1"
+    "@exigentcoder/dobby-example": "file:packages/example/package",
+    "@exigentcoder/dobby-templater-core": "file:packages/templater-core/package"
   },
   "config": {
     "commitizen": {
