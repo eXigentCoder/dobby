@@ -1,4 +1,4 @@
-import { TemplaterCore, ValidationError } from "../src";
+import { bind, ValidationError } from "../src";
 
 describe(`templaterCore`, () => {
 	describe(`with a simple template of "hello {{name}}!"`, () => {
@@ -6,13 +6,11 @@ describe(`templaterCore`, () => {
 
 		describe(`without a schema`, () => {
 			it(`should return 'Hello bob!' `, () => {
-				const templater = new TemplaterCore();
-
 				const model = {
 					name: `bob`,
 				};
 
-				const templatedString = templater.bind(template, model);
+				const templatedString = bind(template, model);
 
 				expect(templatedString).toEqual(`Hello bob!`);
 			});
@@ -52,9 +50,7 @@ describe(`templaterCore`, () => {
 				};
 
 				it(`should return 'Hello John!' `, () => {
-					const templater = new TemplaterCore();
-
-					const templatedString = templater.bind(template, model, schema);
+					const templatedString = bind(template, model, schema);
 
 					expect(templatedString).toEqual(`Hello John!`);
 				});
@@ -67,7 +63,6 @@ describe(`templaterCore`, () => {
 				};
 
 				it(`should return 'Hello John!' `, () => {
-					const templater = new TemplaterCore();
 					const expectedError = new ValidationError(`data should have required property 'age'`, [
 						{
 							keyword: `required`,
@@ -79,7 +74,7 @@ describe(`templaterCore`, () => {
 					]);
 
 					expect(() => {
-						templater.bind(template, model, schema);
+						bind(template, model, schema);
 					}).toThrow(expectedError);
 				});
 			});
