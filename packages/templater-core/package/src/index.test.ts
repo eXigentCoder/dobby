@@ -20,7 +20,7 @@ describe(`templaterCore`, () => {
 			const schema = {
 				definitions: {},
 				$schema: `http://json-schema.org/draft-07/schema#`,
-				$id: `http://example.com/root.json`,
+				$id: `http://example.com/person.json`,
 				type: `object`,
 				title: `The Root Schema`,
 				required: [`name`, `age`],
@@ -63,15 +63,18 @@ describe(`templaterCore`, () => {
 				};
 
 				it(`should return 'Hello John!' `, () => {
-					const expectedError = new ValidationError(`data should have required property 'age'`, [
-						{
-							keyword: `required`,
-							dataPath: ``,
-							schemaPath: `#/required`,
-							params: { missingProperty: `age` },
-							message: `should have required property 'age'`,
-						},
-					]);
+					const expectedError = new ValidationError(
+						`Validating schema 'http://example.com/person.json' failed`,
+						[
+							{
+								keyword: `required`,
+								dataPath: ``,
+								schemaPath: `#/required`,
+								params: { missingProperty: `age` },
+								message: `should have required property 'age'`,
+							},
+						],
+					);
 
 					expect(() => {
 						bind(template, model, schema);
