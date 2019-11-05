@@ -3,22 +3,23 @@ import * as AJV from "ajv";
 
 const ajv = new AJV({ allErrors: true });
 
-export class ValidationError extends Error {
-	data: AJV.ErrorObject[];
-	constructor(message: string, data: AJV.ErrorObject[]) {
-		super(message);
-		this.name = `ValidationError`;
-		this.data = data;
-	}
-}
-
 export type TemplateSchema = {
 	/** The unique identifier of the schema as per JSON Schema draft 7 */
 	$id: string;
 };
 
+export class TemplaterValidationError extends Error {
+	data: AJV.ErrorObject[];
+	constructor(message: string, data: AJV.ErrorObject[]) {
+		super(message);
+		this.name = `TemplaterValidationError`;
+		this.data = data;
+	}
+}
+
 function assertValidModel(model: object, schema: TemplateSchema): void {
 	const schemaId = schema.$id;
+
 	let validate = ajv.getSchema(schemaId);
 
 	if (!validate) {
@@ -31,7 +32,7 @@ function assertValidModel(model: object, schema: TemplateSchema): void {
 
 	if (!valid) {
 		const errorData = validate.errors || [];
-		throw new ValidationError(`Validating schema '${schemaId}' failed`, errorData);
+		throw new TemplaterValidationError(`Validating schema '${schemaId}' failed`, errorData);
 	}
 }
 

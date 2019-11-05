@@ -1,4 +1,4 @@
-import { bind, ValidationError } from "../src";
+import { bind, TemplaterValidationError } from "../src";
 
 describe(`templaterCore`, () => {
 	describe(`with a simple template of "hello {{name}}!"`, () => {
@@ -63,7 +63,7 @@ describe(`templaterCore`, () => {
 				};
 
 				it(`should return 'Hello John!' `, () => {
-					const expectedError = new ValidationError(
+					const expectedError = new TemplaterValidationError(
 						`Validating schema 'http://example.com/person.json' failed`,
 						[
 							{
