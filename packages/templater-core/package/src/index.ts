@@ -17,23 +17,27 @@ export type TemplateSchema = {
 	$id: string;
 };
 
+function assertValidModel(model: object, schema: TemplateSchema): void {
+	const schemaId = schema.$id;
+	let validate = ajv.getSchema(schemaId);
+
+	if (!validate) {
+		// Although addSchema does not compile schemas, explicit compilation is not required - the schema will be compiled when it is used first time.
+		ajv.addSchema(schema, schemaId);
+		validate = ajv.getSchema(schemaId);
+	}
+
+	const valid = validate(model);
+
+	if (!valid) {
+		const errorData = validate.errors || [];
+		throw new ValidationError(`Validating schema '${schemaId}' failed`, errorData);
+	}
+}
+
 export function bind(template: string, model: object, schema?: TemplateSchema): string {
 	if (schema) {
-		const schemaId = schema.$id;
-		let validate = ajv.getSchema(schemaId);
-
-		if (!validate) {
-			// Although addSchema does not compile schemas, explicit compilation is not required - the schema will be compiled when it is used first time.
-			ajv.addSchema(schema, schemaId);
-			validate = ajv.getSchema(schemaId);
-		}
-
-		const valid = validate(model);
-
-		if (!valid) {
-			const errorData = validate.errors || [];
-			throw new ValidationError(`Validating schema '${schemaId}' failed`, errorData);
-		}
+		assertValidModel(model, schema);
 	}
 
 	return handlebars.compile(template)(model);
