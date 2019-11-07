@@ -15,6 +15,7 @@
   "scripts": {
     "extract-dev-deps": "lerna link convert",
     "version": "lerna version --yes",
+    "release": "npm run version && npm run publish",
     "bootstrap": "lerna bootstrap",
     "test": "lerna exec -- npm test",
     "build": "lerna exec -- npm run build",
