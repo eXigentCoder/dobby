@@ -21,17 +21,16 @@ jobs:
       run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc 
     - name: Prepare repository
       run: git checkout "${GITHUB_REF:11}"
+    - name: Set Git User
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
     - name: npm install, build, and test
       run: |
         npm ci
         npm run release
       env:
         CI: true
-    - name: Commit files
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git commit -m "chore: release" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
