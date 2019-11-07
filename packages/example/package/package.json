@@ -10,7 +10,6 @@
   "scripts": {
     "test": "jest",
     "coverage": "jest --collect-coverage",
-    "start": "node --experimental-modules index.js",
     "build": "tsc",
     "lint": "npm run lint-ci -- --fix",
     "lint-ci": "eslint \"./src/**/*.ts\"",
