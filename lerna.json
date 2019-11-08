@@ -8,11 +8,11 @@
     "version": {
       "conventionalCommits": true,
       "changelogPreset": "conventional-changelog-conventionalcommits",
-      "message": "chore(release): version %v",
+      "message": "chore(release): version %s",
       "createRelease": "github"
     },
     "publish": {
-      "message": "chore(release): publish %v",
+      "message": "chore(release): publish %s",
       "registry": "https://npm.pkg.github.com/@eXigentCoder"
     }
   }
