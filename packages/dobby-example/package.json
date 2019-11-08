@@ -2,6 +2,7 @@
   "name": "dobby-example",
   "version": "0.0.12",
   "type": "module",
+  "sideEffects": false,
   "description": "An example library to demonstrate how everything fits together",
   "main": "lib/index.js",
   "files": [
@@ -15,8 +16,7 @@
     "lint-ci": "eslint \"./src/**/*.ts\"",
     "format": "prettier --write \"./src/**/*.ts\"",
     "prepublishOnly": "npm run build",
-    "preversion": "npm run lint && npm run coverage",
-    "docs": "typedoc --out docs src"
+    "preversion": "npm run lint && npm run coverage"
   },
   "repository": {
     "type": "git",

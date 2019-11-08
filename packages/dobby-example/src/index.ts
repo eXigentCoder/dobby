@@ -1,9 +1,3 @@
-/**
- * @module Example
- * @prefered
- *
- * This comment!
- *  */ /** and now?*/
 export * from "./create-user";
 export * from "./user";
 

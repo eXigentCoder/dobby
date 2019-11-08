@@ -22,7 +22,8 @@
     "build": "lerna exec -- npm run build",
     "lint": "lerna exec -- npm run lint",
     "publish": "lerna publish from-package --yes",
-    "docs": "typedoc --out docs packages"
+    "docs": "typedoc",
+    "gh-pages": "rimraf docs && npm run docs && gh-pages -d docs"
   },
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
@@ -35,18 +36,16 @@
     "eslint": "6.5.1",
     "eslint-config-prettier": "6.5.0",
     "eslint-plugin-prettier": "3.1.1",
+    "gh-pages": "2.1.1",
     "husky": "3.0.9",
     "jest": "24.9.0",
     "lerna": "^3.18.3",
     "prettier": "1.18.2",
+    "rimraf": "3.0.0",
     "ts-jest": "24.1.0",
     "typedoc": "0.15.0",
-    "typedoc-plugin-external-module-name": "2.1.0",
+    "typedoc-plugin-lerna-packages": "0.2.1",
     "typescript": "3.6.4"
-  },
-  "dependencies": {
-    "@exigentcoder/dobby-example": "file:packages/example/package",
-    "@exigentcoder/dobby-templater-core": "file:packages/templater-core/package"
   },
   "config": {
     "commitizen": {

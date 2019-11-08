@@ -1,4 +1,3 @@
-/** @module Example */
 /**
  * This user _supports_ [Markdown](https://marked.js.org/)
  * @example
