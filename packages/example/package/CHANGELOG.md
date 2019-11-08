@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.0.10 (2019-11-08)</small>
+
+* chore: cI - Adding coverage step ([7dd01b3](https://github.com/eXigentCoder/dobby/commit/7dd01b3))
+* chore: trying to get CI working ([55f9558](https://github.com/eXigentCoder/dobby/commit/55f9558))
+
+
+
+
+
 ## <small>0.0.9 (2019-11-03)</small>
 
 * chore: updating path to main file ([f65be35](https://github.com/eXigentCoder/dobby/commit/f65be35))

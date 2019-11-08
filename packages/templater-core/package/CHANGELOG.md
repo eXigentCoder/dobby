@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.0 (2019-11-08)
+
+* chore: cI - Adding coverage step ([7dd01b3](https://github.com/eXigentCoder/dobby/commit/7dd01b3))
+* chore: fixed linting issue in templater-core ([826c7a3](https://github.com/eXigentCoder/dobby/commit/826c7a3))
+* feat: adds a new templater-core package as a prototype ([b4aa7bf](https://github.com/eXigentCoder/dobby/commit/b4aa7bf))
+* feat: adds readmes to templater-core package ([4eef831](https://github.com/eXigentCoder/dobby/commit/4eef831))
+* feat: adds schema validation to templater-core ([d6691fe](https://github.com/eXigentCoder/dobby/commit/d6691fe))
+* feat: enhances templater-core to use ajv compiled schemas ([760ea93](https://github.com/eXigentCoder/dobby/commit/760ea93))
+* refactor: extracts assertion of valid models out of the main bind call ([7502ca4](https://github.com/eXigentCoder/dobby/commit/7502ca4))
+* refactor: removed TemplaterCore from the templater-core package ([795a4ae](https://github.com/eXigentCoder/dobby/commit/795a4ae))
+* refactor: renamed ValidationError to TemplaterValidationError ([a04a19a](https://github.com/eXigentCoder/dobby/commit/a04a19a))
+
+
+
+
+
 ## <small>0.0.9 (2019-11-03)</small>
 
 * chore: updating path to main file ([f65be35](https://github.com/eXigentCoder/dobby/commit/f65be35))
