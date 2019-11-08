@@ -19,15 +19,19 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: Authenticate with GitHub package registry
       run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc 
-    - name: Prepare repository
-      run: git checkout "${GITHUB_REF:11}"
-    - name: Set Git User
+    - name: Git setup
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-    - name: npm install, build, and test
+        git remote add origin https://${GH_TOKEN}@github.com/eXigentCoder/dobby.git
+        git checkout origin/master
+    - name: npm install
       run: |
         npm ci
+      env:
+        CI: true
+    - name: Release
+      run: |
         npm run release --registry https://npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}
       env:
         CI: true
