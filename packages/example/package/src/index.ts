@@ -7,12 +7,6 @@ export function echo(stringVal: string): string {
 }
 
 export function createUser(user: User): string {
-	const a: any = {
-		d: 1,
-		b: (d: any) => console.log(d),
-	};
-	a.bob = true;
-	a[`b`] = 1;
 	return user.id;
 }
 
