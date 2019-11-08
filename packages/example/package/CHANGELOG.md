@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.0.12 (2019-11-08)</small>
+
+* refactor(example): removing unused code ([6fdbefa](https://github.com/eXigentCoder/dobby/commit/6fdbefa))
+
+
+
+
+
 ## <small>0.0.11 (2019-11-08)</small>
 
 **Note:** Version bump only for package dobby-example
