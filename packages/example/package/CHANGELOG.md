@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.0.11 (2019-11-08)</small>
+
+**Note:** Version bump only for package dobby-example
+
+
+
+
+
 ## <small>0.0.10 (2019-11-08)</small>
 
 * chore: cI - Adding coverage step ([7dd01b3](https://github.com/eXigentCoder/dobby/commit/7dd01b3))
