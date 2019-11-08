@@ -1,5 +1,5 @@
 module.exports = {
-	...require(`../../../jest.config`),
+	...require(`../../jest.config`),
 	coverageThreshold: {
 		global: {
 			statements: 40,
