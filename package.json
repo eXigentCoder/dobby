@@ -21,7 +21,8 @@
     "coverage": "lerna exec -- npm run coverage",
     "build": "lerna exec -- npm run build",
     "lint": "lerna exec -- npm run lint",
-    "publish": "lerna publish from-package --yes"
+    "publish": "lerna publish from-package --yes",
+    "docs": "lerna exec -- npm run docs --if-present"
   },
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
@@ -39,6 +40,7 @@
     "lerna": "^3.18.3",
     "prettier": "1.18.2",
     "ts-jest": "24.1.0",
+    "typedoc": "0.15.0",
     "typescript": "3.6.4"
   },
   "dependencies": {
