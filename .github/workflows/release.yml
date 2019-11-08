@@ -9,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [8.x, 10.x, 12.x]
+        node-version: [12.x]
 
     steps:
     - uses: actions/checkout@v1
@@ -28,12 +28,12 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm ci
-        npm run release
+        npm run release --registry https://npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}
       env:
         CI: true
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+    # - name: Push changes
+    #   uses: ad-m/github-push-action@master
+    #   with:
+    #     github_token: ${{ secrets.GITHUB_TOKEN }}
       
 
