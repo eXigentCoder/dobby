@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.1.2 (2019-11-08)</small>
+
+* docs: moving to top level to get docs generating ([2af30de](https://github.com/eXigentCoder/dobby/commit/2af30de))
+
+
+
+
+
 ## <small>0.1.1 (2019-11-08)</small>
 
 **Note:** Version bump only for package dobby-templater-core

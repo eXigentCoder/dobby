@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.0.13 (2019-11-08)</small>
+
+* test: fixing test ([f48a1ff](https://github.com/eXigentCoder/dobby/commit/f48a1ff))
+* docs: moving to top level to get docs generating ([2af30de](https://github.com/eXigentCoder/dobby/commit/2af30de))
+
+
+
+
+
 ## <small>0.0.12 (2019-11-08)</small>
 
 * refactor(example): removing unused code ([6fdbefa](https://github.com/eXigentCoder/dobby/commit/6fdbefa))
