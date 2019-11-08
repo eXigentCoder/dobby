@@ -22,7 +22,7 @@
     "build": "lerna exec -- npm run build",
     "lint": "lerna exec -- npm run lint",
     "publish": "lerna publish from-package --yes",
-    "docs": "lerna exec -- npm run docs --if-present"
+    "docs": "typedoc --out docs packages"
   },
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
@@ -41,6 +41,7 @@
     "prettier": "1.18.2",
     "ts-jest": "24.1.0",
     "typedoc": "0.15.0",
+    "typedoc-plugin-external-module-name": "2.1.0",
     "typescript": "3.6.4"
   },
   "dependencies": {

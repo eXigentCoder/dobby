@@ -1,4 +1,4 @@
-# dobby
+# Dobby
 
 ![](https://raw.githubusercontent.com/eXigentCoder/dobby/master/dobby-sock.jpg)
 

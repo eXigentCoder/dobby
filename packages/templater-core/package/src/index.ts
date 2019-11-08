@@ -1,3 +1,10 @@
+/**
+ * @module TemplaterCore
+ * @preferred
+ *
+ * Templates out some strings of doom
+ */ /** */
+
 import * as handlebars from "handlebars";
 import * as AJV from "ajv";
 
