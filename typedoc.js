@@ -1,0 +1,16 @@
+module.exports = {
+	mode: `modules`,
+	out: `docs`,
+	//theme: `default`,
+	exclude: [`**/*+(test|.spec).ts`, `**/node_modules/*`],
+	excludePrivate: true,
+	skipInternal: true,
+	//excludeNotExported: true,
+	//excludeExternals: true,
+	//target: `ES5`,
+	//includeDeclarations: true,
+	readme: `./README.md`,
+	//categorizeByGroup: true,
+	name: `Dobby`,
+	lernaExclude: [],
+};
