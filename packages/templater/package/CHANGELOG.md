@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.1.3 (2019-11-12)</small>
+
+* test: fixing paths ([82a0fb7](https://github.com/eXigentCoder/dobby/commit/82a0fb7))
+* style: moving back to nested package structure ([726b323](https://github.com/eXigentCoder/dobby/commit/726b323))
+
+
+
+
+
 ## <small>0.1.2 (2019-11-08)</small>
 
 * docs: moving to top level to get docs generating ([2af30de](https://github.com/eXigentCoder/dobby/commit/2af30de))
