@@ -44,7 +44,7 @@
     "rimraf": "3.0.0",
     "ts-jest": "24.1.0",
     "typedoc": "0.15.0",
-    "typedoc-plugin-lerna-packages": "0.2.1",
+    "typedoc-plugin-lerna-packages": "git://github.com/eXigentCoder/typedoc-plugin-lerna-packages.git#ryan/feature/nested-packages",
     "typescript": "3.6.4"
   },
   "config": {
@@ -56,5 +56,6 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
-  }
+  },
+  "dependencies": {}
 }

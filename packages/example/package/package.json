@@ -1,5 +1,5 @@
 {
-  "name": "dobby-example",
+  "name": "dobby-example-package",
   "version": "0.0.13",
   "type": "module",
   "sideEffects": false,
