@@ -22,7 +22,7 @@
     "build": "lerna exec -- npm run build",
     "lint": "lerna exec -- npm run lint",
     "publish": "lerna publish from-package --yes",
-    "docs": "typedoc",
+    "docs": "node ./typedoc-generate.js",
     "gh-pages": "rimraf docs && npm run docs && gh-pages -d docs"
   },
   "devDependencies": {
@@ -56,5 +56,6 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
-  }
+  },
+  "dependencies": {}
 }
