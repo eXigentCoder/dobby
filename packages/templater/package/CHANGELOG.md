@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.1.7 (2019-11-13)</small>
+
+* chore(Sourcemaps): adding sourcemaps for coverage ([4823113](https://github.com/eXigentCoder/dobby/commit/4823113))
+
+
+
+
+
 ## <small>0.1.6 (2019-11-13)</small>
 
 * Merge branch 'master' of https://github.com/eXigentCoder/dobby ([a30d974](https://github.com/eXigentCoder/dobby/commit/a30d974))
