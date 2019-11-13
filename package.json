@@ -31,6 +31,7 @@
     "@types/jest": "24.0.21",
     "@typescript-eslint/eslint-plugin": "2.6.0",
     "@typescript-eslint/parser": "2.6.0",
+    "codecov": "3.6.1",
     "conventional-changelog-conventionalcommits": "4.2.1",
     "cz-lerna-changelog": "2.0.2",
     "eslint": "6.5.1",

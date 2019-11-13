@@ -39,6 +39,7 @@ jobs:
     - name: Release
       run: |
         npm run release
+        npm run codecov
         npm run gh-pages
       env:
         CI: true
