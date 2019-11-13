@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.0.15 (2019-11-13)</small>
+
+* docs(README): adding CICD badges ([ec7096a](https://github.com/eXigentCoder/dobby/commit/ec7096a))
+
+
+
+
+
 ## <small>0.0.14 (2019-11-12)</small>
 
 * test: fixing paths ([82a0fb7](https://github.com/eXigentCoder/dobby/commit/82a0fb7))
