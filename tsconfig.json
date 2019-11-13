@@ -3,7 +3,8 @@
 		"target": "es5",
 		"module": "commonjs",
 		"declaration": true,
-		"strict": true
+		"strict": true,
+		"sourceMap": true,
 	},
 	"exclude": [
 		"**/node_modules/**",
