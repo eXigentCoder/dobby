@@ -1,5 +1,9 @@
 # dobby - templater-core
 
+    
+[![Known Vulnerabilities](https://snyk.io/test/github/eXigentCoder/dobby/badge.svg?targetFile=packages/templater/package/package.json)](https://snyk.io/test/github/eXigentCoder/dobby?targetFile=packages/templater/package/package.json)
+
+  
 The core templating package. It's purpose is simple: bind valid models into templates.
 
 ## Usage
