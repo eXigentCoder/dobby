@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.1.6 (2019-11-13)</small>
+
+* Merge branch 'master' of https://github.com/eXigentCoder/dobby ([a30d974](https://github.com/eXigentCoder/dobby/commit/a30d974))
+* docs(coverage): adding codecov ([62a88a5](https://github.com/eXigentCoder/dobby/commit/62a88a5))
+
+
+
+
+
 ## <small>0.1.5 (2019-11-13)</small>
 
 * docs(README): adding CICD badges ([ec7096a](https://github.com/eXigentCoder/dobby/commit/ec7096a))
