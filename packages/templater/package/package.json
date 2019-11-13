@@ -1,6 +1,6 @@
 {
   "name": "dobby-templater-core",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "type": "module",
   "description": "The core templating package for the templating system",
   "main": "lib/index.js",
