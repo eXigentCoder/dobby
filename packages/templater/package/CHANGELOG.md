@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.1.5 (2019-11-13)</small>
+
+* docs(README): adding CICD badges ([ec7096a](https://github.com/eXigentCoder/dobby/commit/ec7096a))
+
+
+
+
+
 ## <small>0.1.4 (2019-11-13)</small>
 
 * docs(Snyk): adding Snyk badges ([7f841e9](https://github.com/eXigentCoder/dobby/commit/7f841e9))
