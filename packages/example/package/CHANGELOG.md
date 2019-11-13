@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.0.18 (2019-11-13)</small>
+
+* chore(Sourcemaps): moving sourcemap option to base ([9133196](https://github.com/eXigentCoder/dobby/commit/9133196))
+
+
+
+
+
 ## <small>0.0.17 (2019-11-13)</small>
 
 * chore(Sourcemaps): adding sourcemaps for coverage ([4823113](https://github.com/eXigentCoder/dobby/commit/4823113))
