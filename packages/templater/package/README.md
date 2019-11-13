@@ -2,7 +2,7 @@
 
     
 [![Known Vulnerabilities](https://snyk.io/test/github/eXigentCoder/dobby/badge.svg?targetFile=packages/templater/package/package.json)](https://snyk.io/test/github/eXigentCoder/dobby?targetFile=packages/templater/package/package.json)
-
+![CICD](https://github.com/eXigentCoder/dobby/workflows/Continuous%20Integration%20And%20Deployment/badge.svg)
   
 The core templating package. It's purpose is simple: bind valid models into templates.
 
