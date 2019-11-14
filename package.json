@@ -15,12 +15,13 @@
   "scripts": {
     "extract-dev-deps": "lerna link convert",
     "bootstrap": "lerna bootstrap",
-    "lint": "lerna exec -- npm run lint",
+    "lint": "npm run lint-ci -- --fix",
+    "lint-ci": "eslint . --ext .js,.jsx,.ts,.tsx,.json",
     "coverage": "jest --collect-coverage && cat ./coverage/lcov.info | codacy-coverage",
     "version": "lerna version --yes",
     "build": "lerna exec -- npm run build",
     "publish": "lerna publish from-package --yes",
-    "test": "lerna exec -- npm test",
+    "test": "jest",
     "docs": "typedoc",
     "gh-pages": "rimraf docs && npm run docs && gh-pages -d docs"
   },
@@ -36,6 +37,7 @@
     "cz-lerna-changelog": "2.0.2",
     "eslint": "6.5.1",
     "eslint-config-prettier": "6.5.0",
+    "eslint-plugin-json": "2.0.1",
     "eslint-plugin-prettier": "3.1.1",
     "gh-pages": "2.1.1",
     "husky": "3.0.9",

@@ -9,12 +9,7 @@
     "lib/**/*"
   ],
   "scripts": {
-    "test": "jest",
-    "coverage": "jest --collect-coverage",
-    "build": "tsc",
-    "lint": "npm run lint-ci -- --fix",
-    "lint-ci": "eslint \"./src/**/*.ts\"",
-    "format": "prettier --write \"./src/**/*.ts\""
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
