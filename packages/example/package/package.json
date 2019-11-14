@@ -1,6 +1,6 @@
 {
   "name": "dobby-example-package",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "type": "module",
   "sideEffects": false,
   "description": "An example library to demonstrate how everything fits together",

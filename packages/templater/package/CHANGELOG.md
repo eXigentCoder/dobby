@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.1.10 (2019-11-14)</small>
+
+**Note:** Version bump only for package dobby-templater-core
+
+
+
+
+
 ## <small>0.1.9 (2019-11-14)</small>
 
 * chore(CI): updating ci process and publishing coverage ([60d0255](https://github.com/eXigentCoder/dobby/commit/60d0255))
