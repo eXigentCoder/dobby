@@ -1,34 +1,31 @@
 # Dobby
 
-![](https://raw.githubusercontent.com/eXigentCoder/dobby/master/dobby-sock.jpg)
+![Dobby](https://raw.githubusercontent.com/eXigentCoder/dobby/master/dobby-sock.jpg)
 
-    
 [![Known Vulnerabilities](https://snyk.io/test/github/eXigentCoder/dobby/badge.svg?targetFile=package.json)](https://snyk.io/test/github/eXigentCoder/dobby?targetFile=package.json)
 ![CICD](https://github.com/eXigentCoder/dobby/workflows/Continuous%20Integration%20And%20Deployment/badge.svg)
 [![codecov](https://codecov.io/gh/eXigentCoder/dobby/branch/master/graph/badge.svg)](https://codecov.io/gh/eXigentCoder/dobby)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1ba5c5f7f65c4b17bb11afaa524ce2f9)](https://www.codacy.com/manual/potz666/dobby?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=eXigentCoder/dobby&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1ba5c5f7f65c4b17bb11afaa524ce2f9)](https://www.codacy.com/manual/potz666/dobby?utm_source=github.com&utm_medium=referral&utm_content=eXigentCoder/dobby&utm_campaign=Badge_Grade)
 
-
-  
 A monorepo for a collection of useful services to aid development.
 
 ## [API Docs](https://eXigentCoder.github.io/dobby)
 
-
 ## Packages
 
-- [templater-core](packages/templater-core/package/README.md)
+-   [templater-core](packages/templater-core/package/README.md)
 
 ## Lib folders
+
 This is the output from TS and won't be checked into the repo.
 
 ## Releases the code
 
-https://github.com/atlassian/lerna-semantic-release
+<https://github.com/atlassian/lerna-semantic-release>
 
 ## Downloading the packages
 
-https://github.com/eXigentCoder/dobby/packages
+<https://github.com/eXigentCoder/dobby/packages>
 
 ## FAQ
 
