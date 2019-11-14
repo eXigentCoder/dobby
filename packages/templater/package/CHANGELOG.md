@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.1.11 (2019-11-14)</small>
+
+* chore: fixing lint issue ([ce044ed](https://github.com/eXigentCoder/dobby/commit/ce044ed))
+* chore(lint): setting up JSON linting, simplifying scripts ([cbb1159](https://github.com/eXigentCoder/dobby/commit/cbb1159))
+* Merge branch 'master' of https://github.com/eXigentCoder/dobby ([9dd895a](https://github.com/eXigentCoder/dobby/commit/9dd895a))
+
+
+
+
+
 ## <small>0.1.10 (2019-11-14)</small>
 
 **Note:** Version bump only for package dobby-templater-core
