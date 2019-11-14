@@ -6,6 +6,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/eXigentCoder/dobby/badge.svg?targetFile=package.json)](https://snyk.io/test/github/eXigentCoder/dobby?targetFile=package.json)
 ![CICD](https://github.com/eXigentCoder/dobby/workflows/Continuous%20Integration%20And%20Deployment/badge.svg)
 [![codecov](https://codecov.io/gh/eXigentCoder/dobby/branch/master/graph/badge.svg)](https://codecov.io/gh/eXigentCoder/dobby)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1ba5c5f7f65c4b17bb11afaa524ce2f9)](https://www.codacy.com/manual/potz666/dobby?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=eXigentCoder/dobby&amp;utm_campaign=Badge_Grade)
 
 
   
