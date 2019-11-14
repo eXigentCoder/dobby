@@ -38,7 +38,11 @@ jobs:
         CI: true
     - name: Release
       run: |
-        npm run release
+        npm run lint
+        npm run coverage
+        npm run version
+        npm run build
+        npm run publish
         npm run gh-pages
         npx codecov
       env:

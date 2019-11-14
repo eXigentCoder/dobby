@@ -14,9 +14,7 @@
     "build": "tsc",
     "lint": "npm run lint-ci -- --fix",
     "lint-ci": "eslint \"./src/**/*.ts\"",
-    "format": "prettier --write \"./src/**/*.ts\"",
-    "preversion": "npm run lint && npm run coverage",
-    "prepublishOnly": "npm run build"
+    "format": "prettier --write \"./src/**/*.ts\""
   },
   "repository": {
     "type": "git",
