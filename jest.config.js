@@ -1,4 +1,5 @@
 module.exports = {
+	runner: `groups`,
 	transform: {
 		"^.+\\.(t|j)sx?$": `ts-jest`,
 	},

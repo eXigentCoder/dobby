@@ -24,6 +24,9 @@
     "build": "lerna exec -- npm run build",
     "publish": "lerna publish from-package --yes",
     "test": "jest",
+    "test:unit": "jest --group=unit",
+    "test:integration": "jest --group=integration",
+    "test:e2d": "jest --group=e2e",
     "docs": "typedoc",
     "gh-pages": "rimraf docs && npm run docs && gh-pages -d docs"
   },
@@ -45,6 +48,7 @@
     "gh-pages": "2.1.1",
     "husky": "3.0.9",
     "jest": "24.9.0",
+    "jest-runner-groups": "1.0.0",
     "lerna": "^3.18.3",
     "prettier": "1.18.2",
     "remark-cli": "7.0.1",

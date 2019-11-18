@@ -1,5 +1,8 @@
 import { bind, TemplaterValidationError } from "../src";
 
+/**
+ * @group unit
+ */
 describe(`templaterCore`, () => {
 	describe(`with a simple template of "hello {{name}}!"`, () => {
 		const template = `Hello {{name}}!`;
