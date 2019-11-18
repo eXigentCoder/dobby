@@ -1,15 +1,15 @@
 {
-    "recommendations": [
-        "dbaeumer.vscode-eslint",
-        "mrmlnc.vscode-remark",
-        "christian-kohler.path-intellisense",
-        "KnisterPeter.vscode-commitizen",
-        "coenraads.bracket-pair-colorizer",
-        "firsttris.vscode-jest-runner",
-        "ban.spellright",
-        "christian-kohler.npm-intellisense",
-        "EditorConfig.EditorConfig",
-        "eg2.vscode-npm-script",
-        "Orta.vscode-jest",
-    ]
+	"recommendations": [
+		"dbaeumer.vscode-eslint",
+		"mrmlnc.vscode-remark",
+		"christian-kohler.path-intellisense",
+		"KnisterPeter.vscode-commitizen",
+		"coenraads.bracket-pair-colorizer",
+		"firsttris.vscode-jest-runner",
+		"ban.spellright",
+		"christian-kohler.npm-intellisense",
+		"EditorConfig.EditorConfig",
+		"eg2.vscode-npm-script",
+		"Orta.vscode-jest"
+	]
 }
