@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.1.14 (2019-11-18)</small>
+
+* Merge branch 'master' of https://github.com/eXigentCoder/dobby ([ee5ec6c](https://github.com/eXigentCoder/dobby/commit/ee5ec6c))
+* test(tag): adding tag capability to tests ([49e3fb5](https://github.com/eXigentCoder/dobby/commit/49e3fb5))
+
+
+
+
+
 ## <small>0.1.13 (2019-11-18)</small>
 
 * chore: adding security rules to linter ([74f9190](https://github.com/eXigentCoder/dobby/commit/74f9190))
