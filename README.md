@@ -2,10 +2,12 @@
 
 ![Dobby](https://raw.githubusercontent.com/eXigentCoder/dobby/master/dobby-sock.jpg)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Known Vulnerabilities](https://snyk.io/test/github/eXigentCoder/dobby/badge.svg?targetFile=package.json)](https://snyk.io/test/github/eXigentCoder/dobby?targetFile=package.json)
 ![CICD](https://github.com/eXigentCoder/dobby/workflows/Continuous%20Integration%20And%20Deployment/badge.svg)
 [![codecov](https://codecov.io/gh/eXigentCoder/dobby/branch/master/graph/badge.svg)](https://codecov.io/gh/eXigentCoder/dobby)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1ba5c5f7f65c4b17bb11afaa524ce2f9)](https://www.codacy.com/manual/potz666/dobby?utm_source=github.com&utm_medium=referral&utm_content=eXigentCoder/dobby&utm_campaign=Badge_Grade)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 A monorepo for a collection of useful services to aid development.
 
