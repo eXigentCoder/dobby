@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/eXigentCoder/dobby#readme",
   "dependencies": {
-    "ajv": "^6.10.2",
+    "ajv": "^6.11.0",
     "handlebars": "^4.5.1"
   }
 }
